@@ -38,18 +38,22 @@ nav a {
 }
 
 #main-pic {
-  width: 1035px;
-  height: 565px;
+  height: 100%;
+  width: 100%;
+  max-width: 1035px;
+  max-height: 565px;
   padding-bottom: 10px;
   padding-top: 25px;
   padding-left: 10px;
 }
 
 div.sidebar {
+  position: relative;
+  right: 20px;
+  top:  10px;
   width: 250px;
   margin: auto;
   float: right;
-  padding-right: 25px;
   font-family: sans-serif;
 }
 
