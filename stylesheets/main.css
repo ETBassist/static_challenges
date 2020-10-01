@@ -57,39 +57,39 @@ div.sidebar {
   font-family: sans-serif;
 }
 
-div h3 {
+div.sidebar h3 {
   font-size: 1.3em;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-img.sidebar {
+div.sidebar img {
   width: 250px;
   padding-bottom: 40px;
 }
 
-.main-text {
-  padding-bottom: 10px;
+section.main-text {
+  padding-bottom: 30px;
   padding-left: 20px;
   font-family: sans-serif;
 }
 
-h1.main-text {
+section.main-text h1 {
   font-size: 1.5em;
   font-weight: bold;
   padding: 15px
 }
 
-p.main-text {
+section.main-text p {
   width: 1000px;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-left: 15px;
 }
 
 footer {
   background-color: rgb(51, 51, 51);
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-family: sans-serif;
 }
