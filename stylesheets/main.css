@@ -1,11 +1,11 @@
 header {
   background-color: rgb(160, 31, 20);
   height: 75px;
+  font-family: sans-serif;
 }
 
 header h1 {
   color: white;
-  font-family: helvetica;
   font-size: 2.3em;
   font-weight: bold;
   padding: 15px;
@@ -16,7 +16,6 @@ header h1 {
 header a {
   float: right;
   color: white;
-  font-family: sans-serif;
   font-size: 1em;
   font-weight: bold;
   padding: 10px;
@@ -42,20 +41,21 @@ nav a {
   width: 1035px;
   height: 565px;
   padding-bottom: 10px;
-  padding-top: 15px;
-  padding-left: 15px;
+  padding-top: 25px;
+  padding-left: 10px;
 }
 
 div.sidebar {
   width: 250px;
   margin: auto;
   float: right;
+  padding-right: 25px;
+  font-family: sans-serif;
 }
 
 div h3 {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -67,12 +67,13 @@ img.sidebar {
 
 .main-text {
   padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: sans-serif;
 }
 
 h1.main-text {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: sans-serif;
   padding: 15px
 }
 
@@ -80,7 +81,6 @@ p.main-text {
   width: 1000px;
   padding-top: 5px;
   padding-left: 15px;
-  font-family: sans-serif;
 }
 
 footer {
